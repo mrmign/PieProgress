@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA080CE71B8A001E008A29B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA080CE61B8A001E008A29B8 /* main.m */; };
+		CA080CEA1B8A001E008A29B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA080CE91B8A001E008A29B8 /* AppDelegate.m */; };
+		CA080CED1B8A001E008A29B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA080CEC1B8A001E008A29B8 /* ViewController.m */; };
+		CA080CF01B8A001E008A29B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA080CEE1B8A001E008A29B8 /* Main.storyboard */; };
+		CA080CF21B8A001E008A29B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA080CF11B8A001E008A29B8 /* Assets.xcassets */; };
+		CA080CF51B8A001E008A29B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA080CF31B8A001E008A29B8 /* LaunchScreen.storyboard */; };
+		CA080CFE1B8A0075008A29B8 /* LMPieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA080CFD1B8A0075008A29B8 /* LMPieProgressView.m */; };
+		CA080D011B8A080F008A29B8 /* LMClockLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA080D001B8A080F008A29B8 /* LMClockLoadingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA080CE21B8A001E008A29B8 /* PieProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PieProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA080CE61B8A001E008A29B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA080CE81B8A001E008A29B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA080CE91B8A001E008A29B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA080CEB1B8A001E008A29B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA080CEC1B8A001E008A29B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA080CEF1B8A001E008A29B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA080CF11B8A001E008A29B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA080CF41B8A001E008A29B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA080CF61B8A001E008A29B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA080CFC1B8A0075008A29B8 /* LMPieProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPieProgressView.h; sourceTree = "<group>"; };
+		CA080CFD1B8A0075008A29B8 /* LMPieProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMPieProgressView.m; sourceTree = "<group>"; };
+		CA080CFF1B8A080F008A29B8 /* LMClockLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMClockLoadingView.h; sourceTree = "<group>"; };
+		CA080D001B8A080F008A29B8 /* LMClockLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMClockLoadingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA080CDF1B8A001E008A29B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA080CD91B8A001E008A29B8 = {
+			isa = PBXGroup;
+			children = (
+				CA080CE41B8A001E008A29B8 /* PieProgress */,
+				CA080CE31B8A001E008A29B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA080CE31B8A001E008A29B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA080CE21B8A001E008A29B8 /* PieProgress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA080CE41B8A001E008A29B8 /* PieProgress */ = {
+			isa = PBXGroup;
+			children = (
+				CA080CFC1B8A0075008A29B8 /* LMPieProgressView.h */,
+				CA080CFD1B8A0075008A29B8 /* LMPieProgressView.m */,
+				CA080CFF1B8A080F008A29B8 /* LMClockLoadingView.h */,
+				CA080D001B8A080F008A29B8 /* LMClockLoadingView.m */,
+				CA080CE81B8A001E008A29B8 /* AppDelegate.h */,
+				CA080CE91B8A001E008A29B8 /* AppDelegate.m */,
+				CA080CEB1B8A001E008A29B8 /* ViewController.h */,
+				CA080CEC1B8A001E008A29B8 /* ViewController.m */,
+				CA080CEE1B8A001E008A29B8 /* Main.storyboard */,
+				CA080CF11B8A001E008A29B8 /* Assets.xcassets */,
+				CA080CF31B8A001E008A29B8 /* LaunchScreen.storyboard */,
+				CA080CF61B8A001E008A29B8 /* Info.plist */,
+				CA080CE51B8A001E008A29B8 /* Supporting Files */,
+			);
+			path = PieProgress;
+			sourceTree = "<group>";
+		};
+		CA080CE51B8A001E008A29B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA080CE61B8A001E008A29B8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA080CE11B8A001E008A29B8 /* PieProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA080CF91B8A001E008A29B8 /* Build configuration list for PBXNativeTarget "PieProgress" */;
+			buildPhases = (
+				CA080CDE1B8A001E008A29B8 /* Sources */,
+				CA080CDF1B8A001E008A29B8 /* Frameworks */,
+				CA080CE01B8A001E008A29B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PieProgress;
+			productName = PieProgress;
+			productReference = CA080CE21B8A001E008A29B8 /* PieProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA080CDA1B8A001E008A29B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mingli;
+				TargetAttributes = {
+					CA080CE11B8A001E008A29B8 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = CA080CDD1B8A001E008A29B8 /* Build configuration list for PBXProject "PieProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA080CD91B8A001E008A29B8;
+			productRefGroup = CA080CE31B8A001E008A29B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA080CE11B8A001E008A29B8 /* PieProgress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA080CE01B8A001E008A29B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA080CF51B8A001E008A29B8 /* LaunchScreen.storyboard in Resources */,
+				CA080CF21B8A001E008A29B8 /* Assets.xcassets in Resources */,
+				CA080CF01B8A001E008A29B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA080CDE1B8A001E008A29B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA080D011B8A080F008A29B8 /* LMClockLoadingView.m in Sources */,
+				CA080CFE1B8A0075008A29B8 /* LMPieProgressView.m in Sources */,
+				CA080CED1B8A001E008A29B8 /* ViewController.m in Sources */,
+				CA080CEA1B8A001E008A29B8 /* AppDelegate.m in Sources */,
+				CA080CE71B8A001E008A29B8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA080CEE1B8A001E008A29B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA080CEF1B8A001E008A29B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA080CF31B8A001E008A29B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA080CF41B8A001E008A29B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA080CF71B8A001E008A29B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA080CF81B8A001E008A29B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA080CFA1B8A001E008A29B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PieProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingli.PieProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA080CFB1B8A001E008A29B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PieProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingli.PieProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA080CDD1B8A001E008A29B8 /* Build configuration list for PBXProject "PieProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA080CF71B8A001E008A29B8 /* Debug */,
+				CA080CF81B8A001E008A29B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA080CF91B8A001E008A29B8 /* Build configuration list for PBXNativeTarget "PieProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA080CFA1B8A001E008A29B8 /* Debug */,
+				CA080CFB1B8A001E008A29B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA080CDA1B8A001E008A29B8 /* Project object */;
+}
